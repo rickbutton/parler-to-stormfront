@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "Parler to Stormfront",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"description": "Replaces 'Parler' with 'Stormfront', for obvious reasons.",
 	"content_scripts": 
 	[
 		{

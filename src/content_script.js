@@ -39,10 +39,9 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\bParler Free Speech Social Network\b/g, "Stormfront White Nationalist Community");
+	v = v.replace(/\bparler\b/g, "stormfront");
+	v = v.replace(/\bParler\b/g, "Stormfront");
 	
 	textNode.nodeValue = v;
 }
